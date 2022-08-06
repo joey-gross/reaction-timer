@@ -13,7 +13,6 @@ export default {
     };
   },
   mounted() {
-    console.log('components mounted');
     setTimeout(() => {
       this.showBlock = true;
       this.startTimer();
